@@ -1,4 +1,4 @@
-Flight Data Analysis Project ✈️
+# Flight Data Analysis Project ✈️
 📌 Project Overview
 This project fetches real-time flight data from the OpenSky API, stores it in a PostgreSQL database, and generates interactive visualizations using Python libraries such as Pandas, Seaborn, Matplotlib, and Plotly.
 
