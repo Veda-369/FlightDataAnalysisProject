@@ -8,7 +8,6 @@ The final output is an interactive HTML report containing all insights.
 Python 🐍 (Pandas, Matplotlib, Seaborn, Plotly, SQLAlchemy)
 PostgreSQL 🗄️ (For data storage & querying)
 Jupyter Notebook 📓 (For development & visualization)
-Power BI (Optional for extended dashboarding)
 📊 Features
 ✅ Live Data Pipeline: Fetches real-time flight data from the API
 ✅ Database Storage: Saves the data into a PostgreSQL database
@@ -22,16 +21,15 @@ Power BI (Optional for extended dashboarding)
 🌍 Interactive Map → Real-time flight positions
 ✅ 📄 Auto-Generated Report → Exports an interactive HTML report
 📂 Project Structure
-bash
-Copy
-Edit
-📦 flight-data-analysis
+📦 Flight_Data
+ ┣ .ipynb_checkpoints           #checkpoints
  ┣ 📂 visuals/                 # Saved images & interactive charts
+ ┣ 📜 Database.sql
  ┣ 📜 flight_analysis_report.html  # Final HTML Report
- ┣ 📜 flight_analysis.ipynb    # Main Jupyter Notebook Script
+ ┣ 📜 Flight_Data.ipynb    # Main Jupyter Notebook Script
  ┣ 📜 requirements.txt         # Required Python libraries
- ┣ 📜 .gitignore               # Ignore unnecessary files
  ┗ 📜 README.md                # Project Overview
+
 🚀 How to Run
 
 🔹 1️⃣ Install Dependencies
@@ -41,7 +39,7 @@ pip install -r requirements.txt
 🔹 2️⃣ Set Up PostgreSQL Database
 Create a new database in PostgreSQL (e.g., Flight_Data).
 
-Update the .env file (or modify the script) with your database credentials:
+Update the .env file (or modify the script) with your database credentials - Do not push this into GIT Directly! :
 DB_USER=your_postgres_username
 DB_PASSWORD=your_postgres_password
 DB_HOST=localhost
