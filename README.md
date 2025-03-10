@@ -1,14 +1,14 @@
 # Flight Data Analysis Project ✈️
-📌 Project Overview
+📌 Project Overview <br>
 This project fetches real-time flight data from the OpenSky API, stores it in a PostgreSQL database, and generates interactive visualizations using Python libraries such as Pandas, Seaborn, Matplotlib, and Plotly.
 
 The final output is an interactive HTML report containing all insights.
 
-🛠️ Tech Stack
+🛠️ Tech Stack <br>
 Python 🐍 (Pandas, Matplotlib, Seaborn, Plotly, SQLAlchemy)
 PostgreSQL 🗄️ (For data storage & querying)
 Jupyter Notebook 📓 (For development & visualization)
-📊 Features
+📊 Features <br>
 ✅ Live Data Pipeline: Fetches real-time flight data from the API
 ✅ Database Storage: Saves the data into a PostgreSQL database
 ✅ Data Analysis & Cleaning: Converts timestamps, filters missing values
@@ -20,7 +20,7 @@ Jupyter Notebook 📓 (For development & visualization)
 ✈️ Pie Chart → Delayed vs. On-time flights
 🌍 Interactive Map → Real-time flight positions
 ✅ 📄 Auto-Generated Report → Exports an interactive HTML report
-📂 Project Structure
+📂 Project Structure <br>
 📦 Flight_Data
  ┣ .ipynb_checkpoints           #checkpoints
  ┣ 📂 visuals/                 # Saved images & interactive charts
@@ -30,7 +30,7 @@ Jupyter Notebook 📓 (For development & visualization)
  ┣ 📜 requirements.txt         # Required Python libraries
  ┗ 📜 README.md                # Project Overview
 
-🚀 How to Run
+🚀 How to Run<br>
 
 🔹 1️⃣ Install Dependencies
 Ensure you have Python installed, then install required packages:
@@ -61,7 +61,7 @@ Generate the final HTML report
 After running the notebook, open the interactive report in your browser:
 open flight_analysis_report.html  # (Or double-click to open)
 
-📂 How to View the Jupyter Notebook Online
+📂 How to View the Jupyter Notebook Online <br>
 🔹 GitHub does not always render Jupyter Notebooks properly.
 🔹 To view it online, use nbviewer:
 
@@ -73,6 +73,6 @@ open flight_analysis_report.html  # (Or double-click to open)
 🔹 Example nbviewer link (replace with your actual GitHub link):
 https://nbviewer.org/github/Veda-369/FlightDataAnalysisProject/blob/main/Flight%20Data.ipynb
 
-🤝 Contributing
+🤝 Contributing <br>
 Pull requests are welcome! If you have suggestions or improvements, feel free to open an issue or submit a PR.
 # FlightDataAnalysisProject
