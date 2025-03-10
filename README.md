@@ -21,14 +21,14 @@ Jupyter Notebook 📓 (For development & visualization)
 🌍 Interactive Map → Real-time flight positions
 ✅ 📄 Auto-Generated Report → Exports an interactive HTML report
 📂 Project Structure <br>
-📦 Flight_Data
- ┣ .ipynb_checkpoints           #checkpoints
- ┣ 📂 visuals/                 # Saved images & interactive charts
- ┣ 📜 Database.sql
- ┣ 📜 flight_analysis_report.html  # Final HTML Report
- ┣ 📜 Flight_Data.ipynb    # Main Jupyter Notebook Script
- ┣ 📜 requirements.txt         # Required Python libraries
- ┗ 📜 README.md                # Project Overview
+📦 **Flight_Data**  
+ ┣ 📂 .ipynb_checkpoints           # Checkpoints  
+ ┣ 📂 visuals/                     # Saved images & interactive charts  
+ ┣ 📜 Database.sql                  # SQL script for database setup  
+ ┣ 📜 flight_analysis_report.html   # Final HTML Report  
+ ┣ 📜 Flight_Data.ipynb             # Main Jupyter Notebook Script  
+ ┣ 📜 requirements.txt              # Required Python libraries  
+ ┗ 📜 README.md                     # Project Overview  
 
 🚀 How to Run<br>
 
