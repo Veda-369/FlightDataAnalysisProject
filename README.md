@@ -19,7 +19,7 @@ Jupyter Notebook 📓 (For development & visualization)
 🕒 Line Chart → Flight activity trends over time
 ✈️ Pie Chart → Delayed vs. On-time flights
 🌍 Interactive Map → Real-time flight positions
-✅ 📄 Auto-Generated Report → Exports an interactive HTML report
+✅ 📄 Auto-Generated Report → Exports an interactive HTML report <br>
 📂 Project Structure <br>
 📦 **Flight_Data**  
  ┣ 📂 .ipynb_checkpoints           # Checkpoints  
